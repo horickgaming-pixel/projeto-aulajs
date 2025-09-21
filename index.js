@@ -1,6 +1,6 @@
 import express from 'express'
 import path from 'path'
-import alunosRouter from './routers/alunoRoute'
+import alunosRouter from './routers/alunoRoute.js'
 import { fileURLToPath } from 'url'
 const app = express()
 
